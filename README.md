@@ -1,1 +1,1 @@
-https://github.com/nikopolo/posmotri_v_okno"
+https://github.com/nikopolo/posmotri_v_okno
