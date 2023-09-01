@@ -95,7 +95,7 @@ fieldset {
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   color: #fff;
-  font-family: 'Fira Sans Condensed';
+  font-family: 'Fira Sans Condensed', Arial, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -153,7 +153,7 @@ fieldset {
 }
 
 .search-form__checkbox-list {
-  display: flex; /*think*/
+  display: flex;
   justify-content: center;
 }
 
@@ -216,7 +216,7 @@ fieldset {
 
 .content__list {
   position: relative;
-  block-size: 298px;
+  block-size: 300px;
   overflow: auto;
 }
 
@@ -276,6 +276,7 @@ fieldset {
 .button:focus {
   outline: none;
 }
+
 .button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -298,4 +299,8 @@ fieldset {
 .more-button {
   inline-size: 399px;
   block-size: 34px;
+}
+
+.more-button:focus-visible {
+  outline-offset: -3px;
 }
